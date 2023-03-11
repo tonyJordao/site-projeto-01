@@ -1,0 +1,26 @@
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 60px;
+    justify-content: center;
+    place-items: center;
+    
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    width: fit-content;
+
+}
+
+.card img{
+    width: 600px;
+    height: 400px;
+}
+
+.card span{
+    font-size: 18px;
+}
